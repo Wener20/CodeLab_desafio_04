@@ -1,13 +1,56 @@
-body{
+body {
     display: grid;
     align-items: center;
     justify-content: center;
 }
 
 #container {
+    display: grid;
+    grid-template-columns: 1fr;
     width: 327px;
     height: 566px;
-    gap: 64px;
+    gap: 40px;
     opacity: 0px;
- border: 1px solid black;
+    border: 1px solid black;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 51px;
+    gap: 8px;
+    /* border: 1px solid yellow; */
+}
+
+h3 {
+    font-family: "Archivo";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17.41px;
+}
+
+h1 {
+    font-family: "Archivo";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26.11px;
+}
+
+.caixa_inputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 184px;
+    gap: 32px;
+
+    border: 1px solid yellowgreen;
+}
+
+.form_inputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 76px;
+    gap: 12px;
+    border: 1px solid gray;
 }
