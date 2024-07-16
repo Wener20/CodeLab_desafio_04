@@ -1,0 +1,13 @@
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 327px;
+    height: 566px;
+    gap: 64px;
+    opacity: 0px;
+ border: 1px solid black;
+}
