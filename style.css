@@ -285,4 +285,8 @@ img {
     align-items: center;
     justify-content: center;
   }
+
+  #container{
+    gap: 50px;
+  }
 }
