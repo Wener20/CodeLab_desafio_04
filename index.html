@@ -29,25 +29,29 @@
         <label for="">Senha</label>
         <input class="input_text" type="text" value="" placeholder="0123456789">
       </form>
+
       <div class="link">
-        <form action="">
+        <form id="form_radio" action="">
           <input type="radio">
-          <label for="">Lembre de mim </label>
+          <label class="Lembre" for="">Lembre de mim </label>
         </form>
         <a class="link_ajuda_senha" href="http://www.google.com.br/?hl=pt-BR">Esqueceu sua senha?</a>
       </div>
     </div>
 
     <div class="botoes">
-      <form action="">
-        <input id="botao_conta" class="input_botao" type="submit" value="Entrar na conta">
-      </form>
-
-        <form  class="faca_login">
-          <img src="icon/icon.svg" alt="icon_google">
-          <input id="login" type="submit" value="Ou faça login com o Google">
-        </form>
+      <button id="botao_conta" type="button"><p>Entrar na conta</p>
+      </button>
+      <button id="login" type="button">
+        <img src="icon/icon.svg" alt="icon_google">
+        <p class="text_login">Ou faça login com o Google</p>
+      </button>      
     </div>
+
+    <div class="caixa_cadastre">
+      <p id="text_cadastrese">Não tem uma conta? <span ><a id="link_cadastrese" href="http://www.google.com.br/?hl=pt-BR">Cadastre-se</a></span></p>
+    </div>
+
 
 
   </section>
