@@ -1,177 +1,261 @@
 body {
-    display: grid;
-    align-items: center;
-    justify-content: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 #container {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 327px;
-    height: auto;
-    gap: 64px;
-    border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 327px;
+  height: auto;
+  gap: 64px;
+  border: 1px solid black;
 }
 
 .titulo {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 51px;
-    gap: 8px;
-    /* border: 1px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 51px;
+  gap: 8px;
+  /* border: 1px solid yellow; */
 }
 
 h3 {
-    font-family: "Archivo";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 17.41px;
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17.41px;
 }
 
 h1 {
-    font-family: "Archivo";
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 26.11px;
+  font-family: "Archivo";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26.11px;
 }
 
 .caixa_inputs {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-    height: 184px;
-    gap: 24px;
-
-    /* border: 1px solid yellowgreen; */
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  height: 184px;
+  gap: 24px;
 }
 
 .form_inputs {
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 76px;
-    gap: 12px;
-    /* border: 1px solid gray; */
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 76px;
+  gap: 12px;
 }
 
 label {
-    font-family: "Archivo";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 15.23px;
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.23px;
 }
 
 .input_text {
-    width: 100%;
-    height: 49px;
-    padding: 16px;
-    gap: 8px;
-    border-radius: 4px;
-    border: 1px solid #E8E8E8;
-    background: #F7FAFC;
+  width: 100%;
+  height: 49px;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid #E8E8E8;
+  background: #F7FAFC;
 }
 
 ::placeholder {
-    font-family: "Archivo";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 17.41px;
-    text-align: left;
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17.41px;
 }
 
 .link {
-    display: flex;
-    width: 100%;
-    height: 16px;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 16px;
+  justify-content: space-between;
 }
 
 .form_radio {
-    display: flex;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .Lembre {
-    font-family: "Archivo";
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 15.23px;
-    text-align: left;
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.23px;
+  text-align: left;
 
 }
 
 .link_ajuda_senha {
-    font-family: "Archivo";
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 15.23px;
-    text-align: right;
-    color: #1E9E6A;
-    text-decoration: none;
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.23px;
+  text-align: right;
+  color: #1E9E6A;
+  text-decoration: none;
 }
 
 .botoes {
-    border: 1px solid maroon;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    gap: 24px;
-    margin-top: 30px;
+  border: 1px solid maroon;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 24px;
+  margin-top: 30px;
 }
 
 #botao_conta {
-    display: flex;
-    width: 100%;
-    height: 45px;
-    padding: 16px 32px;
-    border-radius: 4px;
-    justify-content: center;
-    font-family: "Archivo";
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 19.58px;
-    background: #1E9E6A;
-    border: #1E9E6A;
-    color: #FFFFFF;
-    cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: 45px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Archivo";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 19.58px;
+  background: #1E9E6A;
+  border: #1E9E6A;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 img {
-    width: 16px;
-    height: 16px;
+  width: 16px;
+  height: 16px;
 }
 
 #login {
-    display: flex;
-    width: 100%;
-    height: 45px;
-    padding: 14px 32px;
-    gap: 12px;
-    border-radius: 4px;
-    background: #1A202C;
-    align-items: center;
-    border-radius: 4px;
-    cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: 45px;
+  padding: 14px 32px;
+  gap: 12px;
+  border-radius: 4px;
+  background: #1A202C;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .text_login {
-    font-family: "Archivo";
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 17.41px;
-    color: #FFFFFF;
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.41px;
+  color: #FFFFFF;
 }
 
 .caixa_cadastre {
-    font-family: "Archivo";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 17.41px;
-    text-align: center;
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17.41px;
+  text-align: center;
 }
 
-#link_cadastrese{
-    color: #1E9E6A;
-    cursor: pointer;
-    text-decoration: none;
+#link_cadastrese {
+  color: #1E9E6A;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (min-width: 640px) {
+  #container {
+    width: 400px;
+    gap: 64px;
+  }
+
+  .titulo {
+    height: 69px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 21.76px;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 34.82px;
+  }
+
+  .caixa_inputs {
+    height: 194px;
+    gap: 32px;
+  }
+
+  .form_inputs{
+    height: 81px;
+  }
+
+  label{
+    font-size: 18px;
+    line-height: 19.58px;
+  }
+
+  .input_text{
+    height: 49px;
+  }
+
+  .link{
+    height: 17px;
+  }
+
+  .form_radio{
+    gap: 12px;
+  }
+
+  .Lembre{
+    font-size: 16px;
+    line-height: 17.41px;
+  }
+
+  .link_ajuda_senha{
+    font-size: 16px;
+    line-height: 17.41px;
+  }
+
+  .botoes{
+    margin-top: 35px;
+  }
+
+  #botao_conta{
+    height: 52px;
+  }
+
+  img{
+    width: 24px;
+    height: 24px;
+  }
+
+  #login{
+    height: 52px;
+  }
+
+  .text_login{
+    font-size: 18px;
+    line-height: 19.58px;
+  }
+
+  .caixa_cadastre{
+    font-size: 20px;
+    line-height: 21.76px;
+  }
 }
