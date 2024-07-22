@@ -4,13 +4,16 @@ body {
   justify-content: center;
 }
 
+#container_img {
+  display: none;
+}
+
 #container {
   display: grid;
   grid-template-columns: 1fr;
   width: 327px;
   height: auto;
   gap: 64px;
-  border: 1px solid black;
 }
 
 .titulo {
@@ -19,7 +22,6 @@ body {
   width: 100%;
   height: 51px;
   gap: 8px;
-  /* border: 1px solid yellow; */
 }
 
 h3 {
@@ -109,7 +111,6 @@ label {
 }
 
 .botoes {
-  border: 1px solid maroon;
   display: flex;
   flex-direction: column;
   height: auto;
@@ -201,61 +202,87 @@ img {
     gap: 32px;
   }
 
-  .form_inputs{
+  .form_inputs {
     height: 81px;
   }
 
-  label{
+  label {
     font-size: 18px;
     line-height: 19.58px;
   }
 
-  .input_text{
+  .input_text {
     height: 49px;
   }
 
-  .link{
+  .link {
     height: 17px;
   }
 
-  .form_radio{
+  .form_radio {
     gap: 12px;
   }
 
-  .Lembre{
+  .Lembre {
     font-size: 16px;
     line-height: 17.41px;
   }
 
-  .link_ajuda_senha{
+  .link_ajuda_senha {
     font-size: 16px;
     line-height: 17.41px;
   }
 
-  .botoes{
+  .botoes {
     margin-top: 35px;
   }
 
-  #botao_conta{
+  #botao_conta {
     height: 52px;
   }
 
-  img{
+  img {
     width: 24px;
     height: 24px;
   }
 
-  #login{
+  #login {
     height: 52px;
   }
 
-  .text_login{
+  .text_login {
     font-size: 18px;
     line-height: 19.58px;
   }
 
-  .caixa_cadastre{
+  .caixa_cadastre {
     font-size: 20px;
     line-height: 21.76px;
+  }
+}
+
+@media(min-width: 1025px) {
+  body {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #container_img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #F3FFF2;
+  }
+
+  #img_desktop {
+    width: 500px;
+    height: 420px;
+  }
+
+  #body_login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
